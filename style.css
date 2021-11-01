@@ -1,0 +1,177 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header div {
+    font-size: 24px;
+
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+.mango {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.mango-container {
+    display: flex;
+}
+
+.mango-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.large-mangotext {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+  }
+
+.small-mangotext {
+      color: white;
+  }
+
+.mango-button {
+      background-color: #3882F6;
+      color: white;
+      border-radius: 8px;
+      height: 40px;
+      width: 100px;
+  }
+
+.pineapple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.pineapple-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+.pineapple-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.pine-box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.banana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.banana-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 600px;
+}
+
+.banana-author {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.coconut {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.coconut-container {
+    display: flex;
+    height: 200px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.coconut-container button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.coco-big {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.coco-small {
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+}
+
+.text {
+    width: 150px;
+}
