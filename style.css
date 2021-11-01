@@ -175,3 +175,8 @@ li a {
 .text {
     width: 150px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
